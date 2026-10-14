@@ -1,0 +1,253 @@
+/* body */
+body {
+  margin: 00;
+  font-family: "Google Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at 15% 40%,
+      rgba(255, 255, 255, 0.8),
+      transparent 60%
+    ),
+    radial-gradient(circle at 0% 0%, rgba(255, 255, 255, 0.6), transparent 40%),
+    radial-gradient(
+      circle at 100% 100%,
+      rgba(174, 247, 110, 0.6),
+      transparent 50%
+    ),
+    #f2ffbb;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 50px;
+}
+
+/* Nav Bar */
+header {
+  display: flex;
+  align-items: center;
+  padding: 15px 50px;
+  border-radius: 10px px 70px 70px;
+  gap: 10px;
+}
+
+/* nav displacment */
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+/* Font logo wieght */
+.nav-logo a {
+  font-weight: 500;
+  font-family: "Source Serif 4", serif;
+}
+
+/* logo */
+.nav-logo .nav-logo-img {
+  width: 40px;
+  height: 40px;
+}
+
+/* header and it buttons */
+.nav-links {
+  white-space: nowrap;
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  border-radius: 2px 2px 70px 70px;
+  gap: 20px;
+  cursor: pointer;
+}
+/* button hover */
+.nav-links a:hover {
+  color: #d98a3d;
+  background-color: #000000ef;
+  border-radius: 25px;
+}
+.nav-links a {
+  border-radius: 25px;
+  padding: 8px 14px;
+}
+/* home text in the nav bar */
+.nav-links-a-home {
+  color: #d98a3d;
+}
+/* buttons display */
+.nav-buttons {
+  margin-left: auto;
+  display: flex;
+  gap: 4px;
+}
+/* buttons icons */
+.nav-buttons .icon-button {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.35),
+    rgba(255, 255, 255, 0.08)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(2px);
+}
+.nav-buttons .icon-button-bag {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #ff9a3c, #f97316 50%, #ea580c);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(2px);
+}
+/* button imgs */
+.nav-buttons .icon-img {
+  width: 10px;
+  height: 10px;
+}
+.nav-buttons .icon-img-bag {
+  width: 10px;
+  height: 10px;
+  filter: brightness(0) invert(1);
+}
+
+/* right section and image */
+.right-section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-top: 100px;
+  gap: 20px;
+}
+
+.right-section-img {
+  position: relative;
+  isolation: isolate;
+}
+
+.right-section-img::before {
+  content: "";
+  position: absolute;
+  inset: -80px;
+  z-index: -1;
+  pointer-events: none;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.9) 30%,
+    transparent 70%
+  );
+}
+
+.right-section-img img {
+  width: 550px;
+  display: block;
+}
+
+/* socials */
+.socials {
+  font-size: 10px;
+  display: flex;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  gap: 15px;
+  padding-bottom: 150px;
+  cursor: pointer;
+}
+
+/* left section */
+.left-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.left-section h1 {
+  white-space: nowrap;
+  margin: 0;
+  font-family: "Source Serif 4", serif;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.welcome p {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.line {
+  width: 40px;
+  margin: 0;
+  border: none;
+  border-top: 1px solid black;
+  flex-shrink: 0;
+}
+
+.left-section .ord-button {
+  border: none;
+  border-radius: 999px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.left-section .res-button {
+  border-radius: 999px;
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.left-section .res-button:hover {
+  border-radius: 99px;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+}
+.left-section .ord-button:hover {
+  border-radius: 999px;
+  color: black;
+  padding: 10px 20px;
+  background: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.schedule {
+  padding: 0;
+  margin-top: 40px;
+}
+.schedule p {
+  margin: 0 0 6px 0;
+  font-size: 14px;
+}
+
+.schedule-title {
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.schedule-title-text {
+  font-weight: 600;
+}
