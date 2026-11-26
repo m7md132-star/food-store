@@ -37,6 +37,26 @@ A landing page for a fictional restaurant, built with **HTML and CSS only**. I m
 
 ---
 
+## 🤖 Use of AI
+
+I built this project to learn, so I wrote the HTML and CSS myself. I used AI (Claude by Anthropic) as a helper, not to write the site for me.
+
+**What AI helped with:**
+
+- **Writing this README:** AI drafted it from the project's code, and I reviewed and edited it.
+- **Reviewing my code:** AI pointed out small CSS mistakes, like an invalid `border-radius` value.
+- **Explaining concepts:** when I got stuck, I asked AI to explain how something works instead of giving me the answer.
+- **Deploying to GitHub Pages:** AI helped me figure out why my sites weren't loading and how to fix the folder structure.
+
+**What I did myself:**
+
+- Designed the page layout and chose the colors and fonts
+- Wrote the HTML structure and the CSS styles
+- Picked and prepared the images and icons
+- Tested the page in the browser and fixed issues
+
+---
+
 ## 📁 Project structure
 
 ```
@@ -76,3 +96,5 @@ No install or build step is needed.
 ## 👤 Author
 
 **m7md132-star** · [GitHub](https://github.com/m7md132-star)
+
+Icons from [Icons8](https://icons8.com).
